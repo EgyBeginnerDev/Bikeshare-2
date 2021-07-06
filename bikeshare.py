@@ -264,8 +264,7 @@ def show_raw_data(df):
        (str) city - name of the city to analyze
     
     """
-    
-    
+   
     row = 0
         
     reviewanswer = input('\nWould you like to see sample raw data ? (y)es or anything else for no.\n')
@@ -299,12 +298,10 @@ def main():
         trip_duration_stats(df)
         
         user_stats(df)
-        
-        
+                
         restart = input('\nWould you like to restart? Enter (y)es to restart anyother thing to exit.\n')
         if restart.lower() != 'yes' and restart.lower()!='y':
             break
         
-
 if __name__ == "__main__":
 	main()
